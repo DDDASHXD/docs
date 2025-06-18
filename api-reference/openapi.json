@@ -25,6 +25,9 @@
       }
     },
     "/plants": {
+      "patch": {
+        "description": "Returns patch"
+      }
       "get": {
         "description": "Returns all plants from the system that the user has access to",
         "parameters": [
